@@ -7,7 +7,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body {
 	font: 14px/24px helvetica, arial, sans-serif;
 	color:black;
-	background: url(2.jpg) no-repeat center center fixed; 
+	background: url(2.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -28,7 +28,7 @@ p.copyright{
 		cursor:pointer;
 	}
 	.tooltip{
-		
+
 
 		background-color:white;
 		position: absolute;
@@ -141,14 +141,14 @@ dl.faq{
 		padding:25px 0 5px 0;
 		display:block;
 	}
-	
+
 	dl.faq dd{
 		padding-bottom:25px;
 		border-bottom:1px solid #cccccc;
 		display:block;
 	}
 
-#sidebar { 
+#sidebar {
   	left:760px;
   	position: absolute;
 }
@@ -163,4 +163,11 @@ dl.faq{
 #sidebar_content.fixed {
   position: fixed;
   top: 0;
+}
+.content-div{
+  padding: 10px;
+  border-radius:6px;
+  -moz-box-shadow: 2px 3px 5px #888;
+  -webkit-box-shadow: 2px 3px 5px #888;
+  box-shadow: 2px 3px 5px #888;
 }

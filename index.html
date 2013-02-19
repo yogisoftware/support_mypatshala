@@ -1,18 +1,18 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
-	<head> 
+	<head>
 		<meta charset="utf-8" />
-		<title>MyPatshala Support</title> 
-		<link rel="stylesheet" href="style.css" /> 
-		
+		<title>MyPatshala Support</title>
+		<link rel="stylesheet" href="style.css" />
+
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 		<script src="jquery.scrollTo-1.4.2-min.js"></script>
 		<script src="jquery.localscroll-1.2.7-min.js"></script>
 		<script src="question_answer.js"></script>
-		<!-- Resources Used 
-		--> 
+		<!-- Resources Used
+		-->
 		<script>
-			$(document).ready(function () {  
+			$(document).ready(function () {
 
 				var sidebar = $('#sidebar_content');
 				var top = sidebar.offset().top - parseFloat(sidebar.css('marginTop'));
@@ -26,19 +26,19 @@
 						sidebar.removeClass('fixed');
 					}
 				});
-				$.localScroll();	
+				$.localScroll();
 			});
 		</script>
-	</head>  
+	</head>
 	<body>
 		<div id="wrapper">
 			<img src="logo.jpg" align="left" width="150" height="150">
-			
+
 			<img src="mypatshala.png" size="5x5">
 			<hr>
 			<div id="primary">
 				<h3 id="1">Admission Management</h3>
-				<div class="Admission_Management">
+				<div class="Admission_Management content-div">
 					<ol type="1" class="toggler" data-class="a1_1" id="hint">
 				  	<b><li >How to fill Student Details during admission?</li></b></ol>
         	<blockquote>
@@ -60,10 +60,10 @@
 		        </table>
         </blockquote>
 				<ol type="1" start="2" class="toggler" data-class="a1_2" id="hint"><b><li >Why i am getting error while uploading photo?</li></b> </ol>
-				<blockquote> 	
+				<blockquote>
         	<table class="a1_2" data-id="hideable">
         		<ul class="ans">
-        			<tr><td><li> This is because, you might be trying to upload photo which is large in size.</li></td></tr> 
+        			<tr><td><li> This is because, you might be trying to upload photo which is large in size.</li></td></tr>
         			<tr><td><li> Maximum photo size is 50 kb.</li></td></tr>
         		</ul>
         	</table>
@@ -79,16 +79,16 @@
 					</table>
 				</blockquote>
       </div>
-				
+
 			<h3 id="2">Student Details</h3>
-			<div class="Student_Details">
+			<div class="Student_Details content-div">
 				<ol  id="hint" type="1" class="toggler" data-class="a2_1"><b><li>How to search passout student information?</li></b></ol>
 			<blockquote>
 				<table class="a2_1" data-id="hideable">
 					<ul>
 						<tr><td><li>Go to Dashboard (i.e.Front Page).</tr></td></li>
 	      		<tr><td><li>Click on Student Details.</tr></td></li>
-        		<tr><td><li>Select former student(i.e passout students).</tr></td></li> 
+        		<tr><td><li>Select former student(i.e passout students).</tr></td></li>
         		<tr><td><li>Enter Student details in search box.</tr></td></li>
 						<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>OR </b></tr></td>
         		<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Using advance search</b></tr></td>
@@ -127,15 +127,16 @@
     		</table>
 	 		</blockquote>
 		</div>
+
 		<h3 id="3">Manage User</h3>
-		<div class="manage_user">
+		<div class="manage_user content-div">
 			<ol  id="hint" type="1" class="toggler" data-class="a3_1">
 				<b><li > How to create Admin User?</li></b>
 			</ol>
     	<blockquote>
 		    <table class="a3_1" data-id="hideable">
 		      <ul class="bullet">
-		      	<tr><td><li> Click on Dashboard(i.e front page).</li></td></tr> 
+		      	<tr><td><li> Click on Dashboard(i.e front page).</li></td></tr>
             <tr><td><li> Select manage users.</li></td></tr>
 	       		<tr><td><li> Select on add new tab present in right hand side.</li></td></tr>
 	       		<tr><td><li> Enter details about new admin user.</li></td></tr>
@@ -150,7 +151,7 @@
 		 		<table class="a3_2" data-id="hideable">
 		  		<ul class="bullet">
 						<tr><td><li>After creating your account it will show you user account is created.</li></td></tr>
-	     			<tr><td><li> It will show you edit user.</li></td></tr> 
+	     			<tr><td><li> It will show you edit user.</li></td></tr>
 	     			<tr><td><li>Click Change password tab at right hand side.</li></td></tr>
 	     			<tr><td><li> Enter new password and confirm that password once again.</li></td></tr>
         		<tr><td><li> Click Update button at bottom.</li></td></tr>
@@ -181,8 +182,9 @@
 		  	</table>
 			</blockquote>
 		</div>
+
 		<h3 id="4">Manage News</h3>
-		<div class="Manage_News">
+		<div class="Manage_News content-div">
 			<ol  id="hint" type="1" class="toggler" data-class="a4_1">
 				<b><li>How to view news and announcements?</li></b>
 			</ol>
@@ -191,7 +193,7 @@
 					<ul>
 						<tr><td><li>Go to Dashboard(i.e. Front page).</tr></td></li>
 	     			<tr><td><li>Select manage news.</tr></td></li>
-	      		<tr><td><li>Click on Search or click on view all tab of right hand side.</tr></td></li> 
+	      		<tr><td><li>Click on Search or click on view all tab of right hand side.</tr></td></li>
       		</ul>
     		</table>
 	 		</blockquote>
@@ -210,8 +212,9 @@
     		</table>
 	 		</blockquote>
 		</div>
+
 		<h3 id="5">Examinations</h3>
-		<div class="Examinations">
+		<div class="Examinations content-div">
 			<ol  id="hint" type="1" class="toggler" data-class="a5_1">
 				<b><li > How to set grading levels?</li></b>
 			</ol>
@@ -335,8 +338,9 @@
 		  	</table>
 			</blockquote>
 		</div>
+
 		<h3 id="6">Time Table</h3>
-  	<div class="Timetable">
+  	<div class="Timetable content-div">
   		<ol  id="hint" type="1" class="toggler" data-class="a6_1">
     		<b><li>How to assign subject to teacher?</li></b>
     	</ol>
@@ -346,10 +350,10 @@
           	<tr><td><li>Go to Dashboard(i.e. Front page).</tr></td></li>
           	<tr><td><li>Click on Timetable.</tr></td></li>
 	        	<tr><td><li>Click on Work allotment.</tr></td></li>
-          	<tr><td><li>Click Update button at bottom.</tr></td></li> 
+          	<tr><td><li>Click Update button at bottom.</tr></td></li>
       		</ul>
     		</table>
-    	</blockquote> 
+    	</blockquote>
   		<ol  id="hint" type="1" start="2" class="toggler" data-class="a6_2">
     		<b><li>How to assign multiple teachers to the employee’s subject?</li></b>
     	</ol>
@@ -376,7 +380,7 @@
         		<tr><td><li>Click on Timetable.</tr></td></li>
         		<tr><td><li>Click on Create time table.</tr></td></li>
         		<tr><td><li>Enter start date and end date.</tr></td></li>
-        		<tr><td><li>Click Create button at bottom.</tr></td></li> 
+        		<tr><td><li>Click Create button at bottom.</tr></td></li>
       		</ul>
     		</table>
     	</blockquote>
@@ -390,7 +394,7 @@
         		<tr><td><li>Click on Timetable.</tr></td></li>
         		<tr><td><li>Click Set class timings.</tr></td></li>
         		<tr><td><li>Select batch from list.</tr></td></li>
-        		<tr><td><li>Select on Add link to add new class timing.</tr></td></li> 
+        		<tr><td><li>Select on Add link to add new class timing.</tr></td></li>
       		</ul>
     		</table>
     	</blockquote>
@@ -417,7 +421,7 @@
         		<tr><td><li>Click on Timetable.</tr></td></li>
         		<tr><td><li>Click on view Timetables.</tr></td></li>
         		<tr><td><li>Select time table.</tr></td></li>
-        		<tr><td><li>Select a batch.</tr></td></li> 
+        		<tr><td><li>Select a batch.</tr></td></li>
       		</ul>
     		</table>
     	</blockquote>
@@ -462,7 +466,7 @@
       		</ul>
     		</table>
   		</blockquote>
-		</div>              
+		</div>
 		<h3 id="7">Attendance</h3>
   	<div class="Attendance">
   		<ol  id="hint" type="1" class="toggler" data-class="a7_1">
@@ -473,10 +477,10 @@
       		<ul>
         		<tr><td><li>Go to Dashboard.(i.e.Front Page)</tr></td></li>
 	      		<tr><td><li>Select attendance register.</tr></td></li>
-        		<tr><td><li>Select batch from list.</tr></td></li> 
+        		<tr><td><li>Select batch from list.</tr></td></li>
       		</ul>
     		</table>
-    	</blockquote> 
+    	</blockquote>
   		<ol  id="hint" type="1" start="2" class="toggler" data-class="a7_2">
     		<b><li>How to manage the attendance report?</li></b>
     	</ol>
@@ -485,11 +489,11 @@
       		<ul>
         		<tr><td><li>Go to Dashboard.(i.e.Front Page)</tr></td></li>
         		<tr><td><li>Select attendance report.</tr></td></li>
-        		<tr><td><li>Select a batch.</tr></td></li> 
-        		<tr><td><li>Select a mode.</tr></td></li> 
+        		<tr><td><li>Select a batch.</tr></td></li>
+        		<tr><td><li>Select a mode.</tr></td></li>
       		</ul>
     		</table>
-    	</blockquote>  
+    	</blockquote>
 		  <ol  id="hint" type="1" start="3" class="toggler" data-class="a7_3">
 		    <b><li>How to view monthly attendance report?</li></b>
 		  </ol>
@@ -498,12 +502,12 @@
 		      <ul>
 		        <tr><td><li>Go to Dashboard.(i.e.Front Page)</tr></td></li>
 		        <tr><td><li>Select attendance report.</tr></td></li>
-		        <tr><td><li>Select a batch.</tr></td></li> 
-		        <tr><td><li>Select a mode monthly from list.</tr></td></li> 
-		        <tr><td><li>Select month and year.</tr></td></li> 
+		        <tr><td><li>Select a batch.</tr></td></li>
+		        <tr><td><li>Select a mode monthly from list.</tr></td></li>
+		        <tr><td><li>Select month and year.</tr></td></li>
 		      </ul>
 		    </table>
-		  </blockquote> 
+		  </blockquote>
 		  <ol  id="hint" type="1" start="4" class="toggler" data-class="a7_4">
 		    <b><li>How to view overall attendance report?</li></b>
 		  </ol>
@@ -512,12 +516,12 @@
 		      <ul>
 		        <tr><td><li>Go to Dashboard.(i.e.Front Page)</tr></td></li>
 		        <tr><td><li>Select attendance report.</tr></td></li>
-		        <tr><td><li>Select a batch.</tr></td></li> 
-		        <tr><td><li>Select a mode overall from list.</tr></td></li> 
-		        <tr><td><li>Click pdf report button at bottom.</tr></td></li> 
+		        <tr><td><li>Select a batch.</tr></td></li>
+		        <tr><td><li>Select a mode overall from list.</tr></td></li>
+		        <tr><td><li>Click pdf report button at bottom.</tr></td></li>
 		      </ul>
 		    </table>
-		  </blockquote> 
+		  </blockquote>
 		  <ol  id="hint" type="1" start="5" class="toggler" data-class="a7_5">
 		    <b><li>How to find out students attendance report is below?</li></b>
 		  </ol>
@@ -526,15 +530,15 @@
 		      <ul>
 		        <tr><td><li>Go to Dashboard.(i.e.Front Page)</tr></td></li>
 		        <tr><td><li>Select attendance report.</tr></td></li>
-		        <tr><td><li>Select a batch.</tr></td></li> 
-		        <tr><td><li>Select a mode overall from list.</tr></td></li> 
+		        <tr><td><li>Select a batch.</tr></td></li>
+		        <tr><td><li>Select a mode overall from list.</tr></td></li>
 		        <tr><td><li>Select below from list.</tr></td></li>
-		        <tr><td><li>Click filter button at right hand side.</tr></td></li> 
+		        <tr><td><li>Click filter button at right hand side.</tr></td></li>
 		        <tr><td><li>Click pdf report button at bottom.</tr></td></li>
 		      </ul>
 		    </table>
-		  </blockquote> 
-		 
+		  </blockquote>
+
 		  <ol  id="hint" type="1" start="6" class="toggler" data-class="a7_6">
 		    <b><li>How to find out students attendance report is above?</li></b>
 		  </ol>
@@ -543,10 +547,10 @@
 		      <ul>
 		        <tr><td><li>Go to Dashboard.(i.e.Front Page)</tr></td></li>
 		        <tr><td><li>Select attendance report.</tr></td></li>
-		        <tr><td><li>Select a batch.</tr></td></li> 
-		        <tr><td><li>Select a mode overall from list.</tr></td></li> 
+		        <tr><td><li>Select a batch.</tr></td></li>
+		        <tr><td><li>Select a mode overall from list.</tr></td></li>
 		        <tr><td><li>Select above from list.</tr></td></li>
-		        <tr><td><li>Click filter button at right hand side.</tr></td></li> 
+		        <tr><td><li>Click filter button at right hand side.</tr></td></li>
 		        <tr><td><li>Click pdf report button at bottom.</tr></td></li>
 		      </ul>
 		    </table>
@@ -560,10 +564,10 @@
 		      <ul>
 		        <tr><td><li>Go to Dashboard.(i.e.Front Page)</tr></td></li>
 		        <tr><td><li>Select attendance report.</tr></td></li>
-		        <tr><td><li>Select a batch.</tr></td></li> 
-		        <tr><td><li>Select a mode overall from list.</tr></td></li> 
+		        <tr><td><li>Select a batch.</tr></td></li>
+		        <tr><td><li>Select a mode overall from list.</tr></td></li>
 		        <tr><td><li>Select equals from list.</tr></td></li>
-		        <tr><td><li>Click filter button at right hand side.</tr></td></li> 
+		        <tr><td><li>Click filter button at right hand side.</tr></td></li>
 		        <tr><td><li>Click pdf report button at bottom.</tr></td></li>
 		      </ul>
 		    </table>
@@ -577,15 +581,15 @@
 		      <ul>
 		        <tr><td><li>Go to Dashboard.(i.e.Front Page)</tr></td></li>
 		        <tr><td><li>Select settings.</tr></td></li>
-		        <tr><td><li>Select sms module.</tr></td></li> 
-		        <tr><td><li>Select sms logs.</tr></td></li> 
+		        <tr><td><li>Select sms module.</tr></td></li>
+		        <tr><td><li>Select sms logs.</tr></td></li>
 		      </ul>
 		    </table>
 		  </blockquote>
-		</div> 
+		</div>
 
 		<h3 id="8">Settings</h3>
-		<div class="Settings">
+		<div class="Settings content-div">
 			<ol  id="hint" type="1" class="toggler" data-class="a8_1">
 				<b><li id="8_1"> How to add new course or batch?</li></b>
 			</ol>
@@ -790,7 +794,7 @@
 
 
 		<h3 id="9">Human Resource</h3>
-		<div class="Human_Resource">
+		<div class="Human_Resource content-div">
 			<ol  id="hint" type="1" class="toggler" data-class="a9_1">
 				<b><li id="9_1"> How to add employee category?</li></b>
 			</ol>
@@ -1155,7 +1159,7 @@
 		</div>
 
 		<h3 id="10">Finance</h3>
-  	<div class="Finance">
+  	<div class="Finance content-div">
   		<ol  id="hint" type="1" class="toggler" data-class="a10_1">
     		<b><li>How to create master categories for fees?</li></b>
     	</ol>
@@ -1170,7 +1174,7 @@
 		        <tr><td><li>Enter category name.</tr></td></li>
 		        <tr><td><li>Enter description.</tr></td></li>
 		        <tr><td><li>Select batch.</tr></td></li>
-		        <tr><td><li>Click Save button at bottom.</tr></td></li> 
+		        <tr><td><li>Click Save button at bottom.</tr></td></li>
 	      	</ul>
 	    	</table>
 	    </blockquote>
@@ -1191,11 +1195,11 @@
 			      <tr><td><li>Select create using option.</tr></td></li>
 				    <tr><td><li>Enter amount.</tr></td></li>
 			      <tr><td><li>Select category.</tr></td></li>
-			      <tr><td><li>Click Create button at bottom.</tr></td></li> 
+			      <tr><td><li>Click Create button at bottom.</tr></td></li>
 			    </ul>
 			  </table>
 			</blockquote>
-			
+
 			<ol  id="hint" type="1" start="3" class="toggler" data-class="a10_3">
 			  <b><li>How to create fees discounts?</li></b>
 			</ol>
@@ -1209,11 +1213,11 @@
 			      <tr><td><li>Click on Create Discount button present on right hand site.</tr><td></li>
 			      <tr><td><li>Select discount type.</tr></td></li>
 			      <tr><td><li>Enter all details.</tr></td></li>
-			      <tr><td><li>Click on Create.</tr></td></li> 
+			      <tr><td><li>Click on Create.</tr></td></li>
 			    </ul>
 			  </table>
 			</blockquote>
-			 
+
 			<ol  id="hint" type="1" start="4" class="toggler" data-class="a10_4">
 			  <b><li>How to submit a fee by selecting each course?</li></b>
 			</ol>
@@ -1226,7 +1230,7 @@
 			      <tr><td><li>Fees submission by course.</tr></td></li>
 			      <tr><td><li>Select a batch.</tr></td></li>
 			      <tr><td><li>Select fee collection date.</tr></td></li>
-			      <tr><td><li>Click Pay fees button at bottom.</tr></td></li> 
+			      <tr><td><li>Click Pay fees button at bottom.</tr></td></li>
 			    </ul>
 			  </table>
 			</blockquote>
@@ -1237,31 +1241,31 @@
     	<blockquote>
     		<table class="a10_5" data-id="hideable">
       		<ul>
-		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li> 
-		        <tr><td><li>Enter Finance.</tr></td></li> 
-		        <tr><td><li>Enter Donations.</tr></td></li> 
-		        <tr><td><li>Enter all the details.</tr></td></li> 
-		        <tr><td><li>Click on add button at bottom.</tr></td></li> 
+		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li>
+		        <tr><td><li>Enter Finance.</tr></td></li>
+		        <tr><td><li>Enter Donations.</tr></td></li>
+		        <tr><td><li>Enter all the details.</tr></td></li>
+		        <tr><td><li>Click on add button at bottom.</tr></td></li>
 		      </ul>
 		    </table>
 	    </blockquote>
-                 
+
 	  	<ol  id="hint" type="1" start="6" class="toggler" data-class="a10_6">
 	    	<b><li>How to print  donation receipt?</li></b>
 	    </ol>
 	    <blockquote>
 		    <table class="a10_6" data-id="hideable">
 		      <ul>
-		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li> 
-		        <tr><td><li>Click on  Finance.</tr></td></li> 
-		        <tr><td><li>Click on  Donations.</tr></td></li> 
-		        <tr><td><li>Enter all the details.</tr></td></li> 
-		        <tr><td><li>Click on add button at bottom.</tr></td></li> 
-		        <tr><td><li>Click on print receipt.</tr></td></li> 
+		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li>
+		        <tr><td><li>Click on  Finance.</tr></td></li>
+		        <tr><td><li>Click on  Donations.</tr></td></li>
+		        <tr><td><li>Enter all the details.</tr></td></li>
+		        <tr><td><li>Click on add button at bottom.</tr></td></li>
+		        <tr><td><li>Click on print receipt.</tr></td></li>
 		      </ul>
 		    </table>
 	    </blockquote>
-	                
+
 
 
 	  	<ol  id="hint" type="1" start="7" class="toggler" data-class="a10_7">
@@ -1270,16 +1274,16 @@
 	    <blockquote>
 		    <table class="a10_7" data-id="hideable">
 		      <ul>
-		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li> 
-		        <tr><td><li>Click on  Finance.</tr></td></li> 
-		        <tr><td><li>Click on Transactions.</tr></td></li> 
-		        <tr><td><li>Click on add expense.</tr></td></li> 
-		        <tr><td><li>Enter all details.</tr></td></li> 
-		        <tr><td><li>Click on save button at bottom.</tr></td></li> 
+		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li>
+		        <tr><td><li>Click on  Finance.</tr></td></li>
+		        <tr><td><li>Click on Transactions.</tr></td></li>
+		        <tr><td><li>Click on add expense.</tr></td></li>
+		        <tr><td><li>Enter all details.</tr></td></li>
+		        <tr><td><li>Click on save button at bottom.</tr></td></li>
 		      </ul>
 		    </table>
 	    </blockquote>
-	                
+
 
 	  	<ol  id="hint" type="1" start="8" class="toggler" data-class="a10_8">
 	    	<b><li>How to create new income?</li></b>
@@ -1287,162 +1291,162 @@
 	    <blockquote>
 		    <table class="a10_8" data-id="hideable">
 		      <ul>
-		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li> 
-		        <tr><td><li>Click on  Finance.</tr></td></li> 
-		        <tr><td><li>Click on Transactions.</tr></td></li> 
-		        <tr><td><li>Click on add income.</tr></td></li> 
-		        <tr><td><li>Enter all details.</tr></td></li> 
-		        <tr><td><li>Click on save button at bottom.</tr></td></li> 
+		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li>
+		        <tr><td><li>Click on  Finance.</tr></td></li>
+		        <tr><td><li>Click on Transactions.</tr></td></li>
+		        <tr><td><li>Click on add income.</tr></td></li>
+		        <tr><td><li>Enter all details.</tr></td></li>
+		        <tr><td><li>Click on save button at bottom.</tr></td></li>
 		      </ul>
 		    </table>
 	    </blockquote>
-	 
+
 	  	<ol  id="hint" type="1" start="9" class="toggler" data-class="a10_9">
 	    	<b><li>How to view finance related transactions?</li></b>
 	    </ol>
 	    <blockquote>
 		    <table class="a10_9" data-id="hideable">
 		      <ul>
-		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li> 
-		        <tr><td><li>Click on  Finance.</tr></td></li> 
-		        <tr><td><li>Click on Transactions.</tr></td></li> 
-		        <tr><td><li>Click on report.</tr></td></li> 
-		        <tr><td><li>Click on Display report button at bottom</tr></td></li> 
+		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li>
+		        <tr><td><li>Click on  Finance.</tr></td></li>
+		        <tr><td><li>Click on Transactions.</tr></td></li>
+		        <tr><td><li>Click on report.</tr></td></li>
+		        <tr><td><li>Click on Display report button at bottom</tr></td></li>
 		      </ul>
 		    </table>
 	    </blockquote>
-	 
+
 	  	<ol  id="hint" type="1" start="10" class="toggler" data-class="a10_10">
 	    	<b><li>How to find transaction comparison?</li></b>
 	    </ol>
 	    <blockquote>
 		    <table class="a10_10" data-id="hideable">
 		      <ul>
-		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li> 
-		        <tr><td><li>Click on  Finance.</tr></td></li> 
-		        <tr><td><li>Click on Transactions.</tr></td></li> 
-		        <tr><td><li>Click on comparison transactions.</tr></td></li> 
-		        <tr><td><li>Click on get report at bottom</tr></td></li> 
+		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li>
+		        <tr><td><li>Click on  Finance.</tr></td></li>
+		        <tr><td><li>Click on Transactions.</tr></td></li>
+		        <tr><td><li>Click on comparison transactions.</tr></td></li>
+		        <tr><td><li>Click on get report at bottom</tr></td></li>
 		      </ul>
 		    </table>
 	    </blockquote>
-	 
+
 	  	<ol  id="hint" type="1" start="11" class="toggler" data-class="a10_11">
 	    	<b><li>How to create new asset?</li></b>
 	    </ol>
 	    <blockquote>
 		    <table class="a10_11" data-id="hideable">
 		      <ul>
-		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li> 
-		        <tr><td><li>Click on  Finance.</tr></td></li> 
-		        <tr><td><li>Click on asset liability management.</tr></td></li> 
-		        <tr><td><li>Click on asset.</tr></td></li> 
-		        <tr><td><li>Click on create.</tr></td></li> 
-		        <tr><td><li>Enter all details.</tr></td></li> 
-		        <tr><td><li>Click save button at bottom</tr></td></li> 
+		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li>
+		        <tr><td><li>Click on  Finance.</tr></td></li>
+		        <tr><td><li>Click on asset liability management.</tr></td></li>
+		        <tr><td><li>Click on asset.</tr></td></li>
+		        <tr><td><li>Click on create.</tr></td></li>
+		        <tr><td><li>Enter all details.</tr></td></li>
+		        <tr><td><li>Click save button at bottom</tr></td></li>
 		      </ul>
 		    </table>
 	    </blockquote>
-	 
+
 	  	<ol  id="hint" type="1" start="12" class="toggler" data-class="a10_12">
 	    	<b><li>How to view new asset?</li></b>
 	    </ol>
 	    <blockquote>
 		    <table class="a10_12" data-id="hideable">
 		      <ul>
-		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li> 
-		        <tr><td><li>Click on  Finance.</tr></td></li> 
-		        <tr><td><li>Click on asset liability management.</tr></td></li> 
-		        <tr><td><li>Click on asset.</tr></td></li> 
-		        <tr><td><li>Click on view</tr></td></li> 
+		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li>
+		        <tr><td><li>Click on  Finance.</tr></td></li>
+		        <tr><td><li>Click on asset liability management.</tr></td></li>
+		        <tr><td><li>Click on asset.</tr></td></li>
+		        <tr><td><li>Click on view</tr></td></li>
 		      </ul>
 		    </table>
 	    </blockquote>
-	 
+
 	  	<ol  id="hint" type="1" start="13" class="toggler" data-class="a10_13">
 	    	<b><li>How to create new liability?</li></b>
 	    </ol>
 	    <blockquote>
 		    <table class="a10_13" data-id="hideable">
 		      <ul>
-		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li> 
-		        <tr><td><li>Click on  Finance.</tr></td></li> 
-		        <tr><td><li>Click on asset liability management.</tr></td></li> 
-		        <tr><td><li>Click on liability.</tr></td></li> 
-		        <tr><td><li>Click on create.</tr></td></li> 
-		        <tr><td><li>Enter all details.</tr></td></li> 
-		        <tr><td><li>Click on save button at bottom</tr></td></li> 
+		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li>
+		        <tr><td><li>Click on  Finance.</tr></td></li>
+		        <tr><td><li>Click on asset liability management.</tr></td></li>
+		        <tr><td><li>Click on liability.</tr></td></li>
+		        <tr><td><li>Click on create.</tr></td></li>
+		        <tr><td><li>Enter all details.</tr></td></li>
+		        <tr><td><li>Click on save button at bottom</tr></td></li>
 		      </ul>
 		    </table>
 	    </blockquote>
-	 
+
 	  	<ol  id="hint" type="1" start="14" class="toggler" data-class="a10_14">
 	    	<b><li>How to find liability view?</li></b>
 	    </ol>
 	    <blockquote>
 		    <table class="a10_14" data-id="hideable">
 		      <ul>
-		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li> 
-		        <tr><td><li>Click on  Finance.</tr></td></li> 
-		        <tr><td><li>Click on asset liability management.</tr></td></li> 
-		        <tr><td><li>Click on liability.</tr></td></li> 
-		        <tr><td><li>Click on view.</tr></td></li> 
+		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li>
+		        <tr><td><li>Click on  Finance.</tr></td></li>
+		        <tr><td><li>Click on asset liability management.</tr></td></li>
+		        <tr><td><li>Click on liability.</tr></td></li>
+		        <tr><td><li>Click on view.</tr></td></li>
 		      </ul>
 		    </table>
 	    </blockquote>
-	 
+
 	  	<ol  id="hint" type="1" start="15" class="toggler" data-class="a10_15">
 	    	<b><li>How to creates an auto transactions?</li></b>
 	    </ol>
 	    <blockquote>
 		    <table class="a10_15" data-id="hideable">
 		      <ul>
-		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li> 
-		        <tr><td><li>Click on  Finance.</tr></td></li> 
-		        <tr><td><li>Click on automatic transactions.</tr></td></li> 
-		        <tr><td><li>Click on create.</tr></td></li> 
-		        <tr><td><li>Enter all details.</tr></td></li> 
-		        <tr><td><li>Click on save button at bottom</tr></td></li> 
+		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li>
+		        <tr><td><li>Click on  Finance.</tr></td></li>
+		        <tr><td><li>Click on automatic transactions.</tr></td></li>
+		        <tr><td><li>Click on create.</tr></td></li>
+		        <tr><td><li>Enter all details.</tr></td></li>
+		        <tr><td><li>Click on save button at bottom</tr></td></li>
 		      </ul>
 		    </table>
 	    </blockquote>
-	 
+
 	  	<ol  id="hint" type="1" start="16" class="toggler" data-class="a10_16">
 	    	<b><li>How to view department wise payslip?</li></b>
 	    </ol>
 	    <blockquote>
 		    <table class="a10_16" data-id="hideable">
 		      <ul>
-		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li> 
-		        <tr><td><li>Click on  Finance.</tr></td></li> 
-		        <tr><td><li>Click on payslip.</tr></td></li> 
-		        <tr><td><li>Click on view payslip.</tr></td></li> 
-		        <tr><td><li>Select department.</tr></td></li> 
-		        <tr><td><li>Select month.</tr></td></li> 
-		        <tr><td><li>Click view button at bottom.</tr></td></li> 
+		        <tr><td><li>Go to Dashboard(i.e Front Page).</tr></td></li>
+		        <tr><td><li>Click on  Finance.</tr></td></li>
+		        <tr><td><li>Click on payslip.</tr></td></li>
+		        <tr><td><li>Click on view payslip.</tr></td></li>
+		        <tr><td><li>Select department.</tr></td></li>
+		        <tr><td><li>Select month.</tr></td></li>
+		        <tr><td><li>Click view button at bottom.</tr></td></li>
 		      </ul>
 		    </table>
 	    </blockquote>
 		</div>
 
 		<h3 id="11">Hostel</h3>
-		<div class="Hostel">
+		<div class="Hostel content-div">
 		  <ol  id="hint" type="1" class="toggler" data-class="a11_1">
 		    <b><li>How to add hostel details?</li></b>
 		  </ol>
 		  <blockquote>
 		    <table class="a11_1" data-id="hideable">
 		      <ul>
-		        <tr><td><li>Go to Dashboard(i.e. First page).</tr></td></li> 
-		        <tr><td><li>Click on Hostel.</tr></td></li> 
+		        <tr><td><li>Go to Dashboard(i.e. First page).</tr></td></li>
+		        <tr><td><li>Click on Hostel.</tr></td></li>
 		        <tr><td><li>Select add hostel tab to your right hand side.</tr></td></li>
 		        <tr><td><li>Enter hostel name.</tr></td></li>
 		        <tr><td><li>Enter hostel type.</tr></td></li>
-		        <tr><td><li>Click Save button at bottom.</tr></td></li> 
+		        <tr><td><li>Click Save button at bottom.</tr></td></li>
 		      </ul>
 		    </table>
 		  </blockquote>
-		 
+
 		  <ol  id="hint" type="1" start="2" class="toggler" data-class="a11_2">
 		    <b><li>How to assign warden  to hostel?</li></b>
 		  </ol>
@@ -1460,11 +1464,11 @@
 		        <tr><td><li>Select hostel from list.</tr></td></li>
 		        <tr><td><li>Select employee department from list.</tr></td></li>
 		        <tr><td><li>Select warden.</tr></td></li>
-		        <tr><td><li>Click Save button at bottom.</tr></td></li> 
+		        <tr><td><li>Click Save button at bottom.</tr></td></li>
 		      </ul>
 		    </table>
 		  </blockquote>
-		 
+
 		  <ol  id="hint" type="1" start="3" class="toggler" data-class="a11_3">
 		    <b><li>How to add new room to hostel?</li></b>
 		  </ol>
@@ -1480,11 +1484,11 @@
 		        <tr><td><li>Enter students per room.</tr></td></li>
 		        <tr><td><li>Enter rent.</tr></td></li>
 		        <tr><td><li>Enter no of rooms.</tr></td></li>
-		        <tr><td><li>Click Save button at bottom.</tr></td></li> 
+		        <tr><td><li>Click Save button at bottom.</tr></td></li>
 		      </ul>
 		    </table>
 		  </blockquote>
-		 
+
 		  <ol  id="hint" type="1" start="4" class="toggler" data-class="a11_4">
 		    <b><li>How to allocate rooms to students?</li></b>
 		  </ol>
@@ -1498,11 +1502,11 @@
 		        <tr><td><li> Click on Student name.</tr></td></li>
 		        <tr><td><li> Select a hostel from list.</tr></td></li>
 		        <tr><td><li> Click on Edit on right hand side.</tr></td></li>
-			     <tr><td><li> Then click on Update.</tr></td></li> 
+			     <tr><td><li> Then click on Update.</tr></td></li>
 		      </ul>
 		    </table>
 		  </blockquote>
-		 
+
 		  <ol  id="hint" type="1" start="5" class="toggler" data-class="a11_5">
 		    <b><li>How to pay hostel fees?</li></b>
 		  </ol>
@@ -1513,11 +1517,11 @@
 		        <tr><td><li> Click on Hostel.</tr></td></li>
 		        <tr><td><li> Click on Hostel fee pay.</tr></td></li>
 		        <tr><td><li> Select a class.</tr></td></li>
-		        <tr><td><li> Select fee collection date.</tr></td></li> 
+		        <tr><td><li> Select fee collection date.</tr></td></li>
 		      </ul>
 		    </table>
 		  </blockquote>
-		 
+
 		  <ol  id="hint" type="1" start="6" class="toggler" data-class="a11_6">
 		    <b><li>How to view hostel fee defaulters?</li></b>
 		  </ol>
@@ -1529,11 +1533,11 @@
 		        <tr><td><li> Click on Hostel fee pay.</tr></td></li>
 		        <tr><td><li> Select defaulter tab to your right hand side.</tr></td></li>
 		        <tr><td><li> Select a class.</tr></td></li>
-		        <tr><td><li> Select fee collection date.</tr></td></li> 
+		        <tr><td><li> Select fee collection date.</tr></td></li>
 		      </ul>
 		    </table>
 		  </blockquote>
-		 
+
 		  <ol  id="hint" type="1" start="7" class="toggler" data-class="a11_7">
 		    <b><li>How to create hostel fee collection date?</li></b>
 		  </ol>
@@ -1548,11 +1552,11 @@
 		        <tr><td><li> Enter start date.</tr></td></li>
 		        <tr><td><li> Enter end date.</tr></td></li>
 		        <tr><td><li> Enter due date.</tr></td></li>
-		        <tr><td><li> Select batch.</tr></td></li> 
+		        <tr><td><li> Select batch.</tr></td></li>
 		      </ul>
 		    </table>
 		  </blockquote>
-		 
+
 		  <ol  id="hint" type="1" start="8" class="toggler" data-class="a11_8">
 		    <b><li>How to view fee collection dates?</li></b>
 		  </ol>
@@ -1563,11 +1567,11 @@
 		 	      <tr><td><li> Click on Hostel.</tr></td></li>
 		        <tr><td><li> Click on Fee collection.</tr></td></li>
 		        <tr><td><li> Click on View.</tr></td></li>
-		        <tr><td><li> Select a batch from list.</tr></td></li> 
+		        <tr><td><li> Select a batch from list.</tr></td></li>
 		      </ul>
 		    </table>
 		  </blockquote>
-		 
+
 		  <ol  id="hint" type="1" start="9" class="toggler" data-class="a11_9">
 		    <b><li>How to search student for hostel fee submission?</li></b>
 		  </ol>
@@ -1580,14 +1584,14 @@
 		        <tr><td><li> Enter search student.</tr></td></li>
 		        <tr><td><li> Click on Student’s name.</tr></td></li>
 		        <tr><td><li> Select a fee collection date.</tr></td></li>
-		        <tr><td><li> Click Print receipt button.</tr></td></li> 
+		        <tr><td><li> Click Print receipt button.</tr></td></li>
 		      </ul>
 		    </table>
 		  </blockquote>
-		</div> 
+		</div>
 
 		<h3 id="12">Library</h3>
-		<div class="Library">
+		<div class="Library content-div">
 			<ol  id="hint" type="1" class="toggler" data-class="a12_1">
 				<b><li id="12_1"> How to add Book in Library?</li></b>
 			</ol>
@@ -1698,8 +1702,9 @@
 				</table>
 			</blockquote>
 		</div>
+
 		<h3 id="13">Transport</h3>
-		<div class="Transport">
+		<div class="Transport content-div">
 			<ol  id="hint" type="1" class="toggler" data-class="a13_1">
 				<b><li id="13_1"> How to set the routes for vehicle?</li></b>
 			</ol>
@@ -1808,7 +1813,7 @@
 		</div>
 
 		<h3 id="14">Miscellaneous</h3>
-		<div class="Miscellaneous">
+		<div class="Miscellaneous content-div">
 			<ol  id="hint" type="1" class="toggler" data-class="a14_1">
 				<b><li id="14_1"> How to find all types of Certificates?</li></b>
 			</ol>
@@ -1866,11 +1871,6 @@
 				</table>
 			</blockquote>
 		</div>
-				
-
-
-
-
 
 
 
@@ -1880,10 +1880,10 @@
 		<div id="sidebar_content">
 			<h3>Select Category</h3>
 				<ul class="section_menu">
-					<tr>	
+					<tr>
 					 <th><h5>Electronic User Manual</h5></th>
 				  	<td>
-  				    <li><a href="#1">Admission Management</a></li><li><a href="#2">Student Information System</a></li>			
+  				    <li><a href="#1">Admission Management</a></li><li><a href="#2">Student Information System</a></li>
   				    <li><a href="#3">User Management</a></li>
 							<li><a href="#4">Manage News</a></li>
 							<li><a href="#5">Examination Management</a></li>
@@ -1891,7 +1891,7 @@
 							<li><a href="#7">Attendance Management</a></li>
 							<li><a href="#8">MyPathshala Settings</a></li>
 							<li><a href="#9">Human Resource Management</a></li>
-							<li><a href="#10">Finance Management</a></li>	
+							<li><a href="#10">Finance Management</a></li>
 							<li><a href="#11">Hostel Management</a></li>
 							<li><a href="#12">Library Management</a></li>
 							<li><a href="#13">Transport Management</a></li>
