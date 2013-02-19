@@ -151,18 +151,26 @@ dl.faq{
 #sidebar {
   	left:760px;
   	position: absolute;
+
 }
 
 #sidebar_content {
   	position: absolute;
   	top: 0;
   	/* just used to show how to include the margin in the effect */
+
 	width:250px;
 }
 
 #sidebar_content.fixed {
   position: fixed;
   top: 0;
+}
+ul.section_menu{
+   border-radius:6px;
+  -moz-box-shadow: 2px 3px 5px #ccc,-2px -2px 5px #ccc;
+  -webkit-box-shadow: 2px 3px 5px #ccc,-2px -2px 5px #ccc;
+  box-shadow: 2px 3px 5px #ccc,-2px -2px 5px #ccc;
 }
 .content-div{
   padding: 10px;
